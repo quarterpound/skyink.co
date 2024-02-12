@@ -2,6 +2,8 @@ import Link, { LinkProps } from "next/link";
 import LogoGradient from "@/components/icons/logo_gradient";
 import { AnchorHTMLAttributes } from "react";
 import { cn } from "@/utils/tailwind";
+import HamburgerMenu from "../icons/hamburger_menu";
+import ShoppingCart from "../icons/shopping_cart";
 
 const NavLink = ({
   className,
@@ -13,22 +15,15 @@ const NavLink = ({
 const Header = () => {
   return (
     <header className="container flex h-32 w-full items-center justify-between py-10">
-      <nav className="flex gap-5">
-        <NavLink href={"/shop"} className="uppercase">
-          Shop
-        </NavLink>
-        <NavLink href={"/about"} className="uppercase">
-          About
-        </NavLink>
-      </nav>
+      <button>
+        <HamburgerMenu className="h-8 w-8" />
+      </button>
       <Link href={"/"}>
         <LogoGradient className="h-24 w-fit" />
       </Link>
-      <nav>
-        <NavLink href={"/cart"} className="uppercase">
-          Cart
-        </NavLink>
-      </nav>
+      <button>
+        <ShoppingCart className="h-8 w-8" />
+      </button>
     </header>
   );
 };
