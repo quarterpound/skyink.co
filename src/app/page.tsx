@@ -14,7 +14,7 @@ export default function Home() {
             reality with <span className="italic">Skyink</span>
           </h1>
         </div>
-        <div className="grid h-[400px] grid-cols-3 gap-5">
+        <div className="grid h-[400px] gap-5 md:grid-cols-3">
           <Image
             src={img1}
             width={img1.width}
@@ -29,7 +29,7 @@ export default function Home() {
             height={img2.height}
             blurDataURL={img2.blurDataURL}
             alt="Image 2"
-            className="h-[400px] object-cover"
+            className="hidden h-[400px] object-cover md:block"
           />
           <Image
             src={img3}
@@ -37,7 +37,7 @@ export default function Home() {
             height={img3.height}
             blurDataURL={img3.blurDataURL}
             alt="Image 3"
-            className="h-[400px] object-cover"
+            className="hidden h-[400px] object-cover md:block"
           />
         </div>
         <div className="mx-auto max-w-[400px] text-center text-sm font-medium">
