@@ -15,13 +15,13 @@ const NavLink = ({
 const Header = () => {
   return (
     <header className="container flex h-32 w-full items-center justify-between py-10">
-      <button>
+      <button role="menu" aria-label="Menu">
         <HamburgerMenu className="h-8 w-8" />
       </button>
       <Link href={"/"}>
         <LogoGradient className="h-24 w-fit" />
       </Link>
-      <button>
+      <button role="tab" aria-label="Shopping cart">
         <ShoppingCart className="h-8 w-8" />
       </button>
     </header>

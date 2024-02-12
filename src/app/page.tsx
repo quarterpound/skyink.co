@@ -19,12 +19,16 @@ export default function Home() {
             src={img1}
             width={img1.width}
             height={img1.height}
+            priority={true}
+            loading="eager"
             blurDataURL={img1.blurDataURL}
             alt="Image 1"
             className="h-[400px] object-cover"
           />
           <Image
             src={img2}
+            priority={true}
+            loading="eager"
             width={img2.width}
             height={img2.height}
             blurDataURL={img2.blurDataURL}
@@ -35,6 +39,8 @@ export default function Home() {
             src={img3}
             width={img3.width}
             height={img3.height}
+            priority={true}
+            loading="eager"
             blurDataURL={img3.blurDataURL}
             alt="Image 3"
             className="hidden h-[400px] object-cover md:block"
