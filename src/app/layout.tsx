@@ -1,11 +1,15 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Inter, Inter_Tight } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/layouts/header";
 import Footer from "@/components/layouts/footer";
 import { getGenericMetadata } from "@/utils/metadata";
 
 const inter = Inter({ subsets: ["latin"] });
+const inter_tight = Inter_Tight({
+  subsets: ["latin"],
+  variable: "--font-tight",
+});
 
 export const metadata: Metadata = {
   title: "Skyink",
@@ -52,7 +56,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={`${inter.className} ${inter_tight.variable}`}>
         <Header />
         {children}
         <Footer />

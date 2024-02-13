@@ -8,13 +8,16 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        tight: "var(--font-tight)",
+      },
       container: {
         center: true,
         padding: {
           DEFAULT: "24px",
           sm: "24px",
           lg: "40px",
-        }
+        },
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",

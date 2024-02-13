@@ -11,6 +11,12 @@ dependencies:
   clsx:
     specifier: ^2.1.0
     version: 2.1.0
+  gsap:
+    specifier: ^3.12.5
+    version: 3.12.5
+  gsap-react:
+    specifier: ^1.3.2
+    version: 1.3.2(gsap@3.12.5)(react-dom@18.2.0)(react@18.2.0)
   next:
     specifier: 14.1.0
     version: 14.1.0(react-dom@18.2.0)(react@18.2.0)
@@ -1436,6 +1442,22 @@ packages:
   /graphemer@1.4.0:
     resolution: {integrity: sha512-EtKwoO6kxCL9WO5xipiHTZlSzBm7WLT627TqC/uVRd0HKmq8NXyebnNYxDoBi7wt8eTWrUrKXCOVaFq9x1kgag==}
     dev: true
+
+  /gsap-react@1.3.2(gsap@3.12.5)(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-NKLIALjXHiQMJsBPk+D1Z71GZbPO6/rcy9/p2pBSAtgAq4CwsEW1lHSnT640VPbGGauKPxN7DywNq8p/x9L8AA==}
+    peerDependencies:
+      gsap: ^3.11.4
+      react: ^16 || ^17 || ^18
+      react-dom: ^16.8.0  || ^17.0.0 || ^18.0.0
+    dependencies:
+      gsap: 3.12.5
+      react: 18.2.0
+      react-dom: 18.2.0(react@18.2.0)
+    dev: false
+
+  /gsap@3.12.5:
+    resolution: {integrity: sha512-srBfnk4n+Oe/ZnMIOXt3gT605BX9x5+rh/prT2F1SsNJsU1XuMiP0E2aptW481OnonOGACZWBqseH5Z7csHxhQ==}
+    dev: false
 
   /has-bigints@1.0.2:
     resolution: {integrity: sha512-tSvCKtBr9lkF0Ex0aQiP9N+OpV4zi2r/Nee5VkRDbaqv35RLYMzbwQfFSZZH0kR+Rd6302UJZ2p/bJCEoR3VoQ==}

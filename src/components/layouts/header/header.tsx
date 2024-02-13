@@ -1,16 +1,7 @@
-import Link, { LinkProps } from "next/link";
+import Link from "next/link";
 import LogoGradient from "@/components/icons/logo_gradient";
-import { AnchorHTMLAttributes } from "react";
-import { cn } from "@/utils/tailwind";
-import HamburgerMenu from "../icons/hamburger_menu";
-import ShoppingCart from "../icons/shopping_cart";
-
-const NavLink = ({
-  className,
-  ...props
-}: LinkProps & AnchorHTMLAttributes<HTMLAnchorElement>) => (
-  <Link {...props} className={cn("uppercase", className)} />
-);
+import HamburgerMenu from "@/components/icons/hamburger_menu";
+import ShoppingCart from "@/components/icons/shopping_cart";
 
 const Header = () => {
   return (
@@ -19,7 +10,7 @@ const Header = () => {
         <HamburgerMenu className="h-8 w-8" />
       </button>
       <Link href={"/"}>
-        <LogoGradient className="h-24 w-fit" />
+        <LogoGradient className="h-24 w-24" />
       </Link>
       <button role="tab" aria-label="Shopping cart">
         <ShoppingCart className="h-8 w-8" />

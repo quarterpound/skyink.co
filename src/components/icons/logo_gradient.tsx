@@ -3,8 +3,6 @@ import { SVGAttributes } from "react";
 const LogoGradient = (props: SVGAttributes<SVGSVGElement>) => {
   return (
     <svg
-      width="511"
-      height="518"
       viewBox="0 0 511 518"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
