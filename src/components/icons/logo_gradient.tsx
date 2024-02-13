@@ -49,8 +49,8 @@ const LogoGradient = (props: SVGAttributes<SVGSVGElement>) => {
           y2="18.6945"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#22323B" />
-          <stop offset="1" stop-color="#45738E" />
+          <stop stopColor="#22323B" />
+          <stop offset="1" stopColor="#45738E" />
         </linearGradient>
         <linearGradient
           id="paint1_linear_1_69"
@@ -60,8 +60,8 @@ const LogoGradient = (props: SVGAttributes<SVGSVGElement>) => {
           y2="90.6232"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#22323B" />
-          <stop offset="1" stop-color="#45738E" />
+          <stop stopColor="#22323B" />
+          <stop offset="1" stopColor="#45738E" />
         </linearGradient>
         <linearGradient
           id="paint2_linear_1_69"
@@ -71,8 +71,8 @@ const LogoGradient = (props: SVGAttributes<SVGSVGElement>) => {
           y2="72.3557"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#22323B" />
-          <stop offset="1" stop-color="#45738E" />
+          <stop stopColor="#22323B" />
+          <stop offset="1" stopColor="#45738E" />
         </linearGradient>
         <linearGradient
           id="paint3_linear_1_69"
@@ -82,8 +82,8 @@ const LogoGradient = (props: SVGAttributes<SVGSVGElement>) => {
           y2="103.114"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#22323B" />
-          <stop offset="1" stop-color="#45738E" />
+          <stop stopColor="#22323B" />
+          <stop offset="1" stopColor="#45738E" />
         </linearGradient>
         <linearGradient
           id="paint4_linear_1_69"
@@ -93,8 +93,8 @@ const LogoGradient = (props: SVGAttributes<SVGSVGElement>) => {
           y2="229.004"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#22323B" />
-          <stop offset="1" stop-color="#45738E" />
+          <stop stopColor="#22323B" />
+          <stop offset="1" stopColor="#45738E" />
         </linearGradient>
         <linearGradient
           id="paint5_linear_1_69"
@@ -104,8 +104,8 @@ const LogoGradient = (props: SVGAttributes<SVGSVGElement>) => {
           y2="241.31"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#22323B" />
-          <stop offset="1" stop-color="#45738E" />
+          <stop stopColor="#22323B" />
+          <stop offset="1" stopColor="#45738E" />
         </linearGradient>
         <linearGradient
           id="paint6_linear_1_69"
@@ -115,8 +115,8 @@ const LogoGradient = (props: SVGAttributes<SVGSVGElement>) => {
           y2="247.739"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#22323B" />
-          <stop offset="1" stop-color="#45738E" />
+          <stop stopColor="#22323B" />
+          <stop offset="1" stopColor="#45738E" />
         </linearGradient>
         <linearGradient
           id="paint7_linear_1_69"
@@ -126,8 +126,8 @@ const LogoGradient = (props: SVGAttributes<SVGSVGElement>) => {
           y2="260.659"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#22323B" />
-          <stop offset="1" stop-color="#45738E" />
+          <stop stopColor="#22323B" />
+          <stop offset="1" stopColor="#45738E" />
         </linearGradient>
       </defs>
     </svg>

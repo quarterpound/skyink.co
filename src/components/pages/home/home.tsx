@@ -1,5 +1,5 @@
 import Landing from "./landing";
-import Products from "./products";
+import Products from "./featured-products";
 
 const Home = () => {
   return (

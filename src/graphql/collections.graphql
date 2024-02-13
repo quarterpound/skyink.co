@@ -1,0 +1,63 @@
+query CollectionProducts {
+  collections(first: 20) {
+    nodes {
+      id
+      products(first: 2) {
+        nodes {
+          handle
+          title
+          images(first: 1) {
+            nodes {
+              url
+              altText
+              width
+              height
+            }
+          }
+          priceRange {
+            minVariantPrice {
+              amount
+              currencyCode
+            }
+            maxVariantPrice {
+              amount
+              currencyCode
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+query CollectionProductsByHandle {
+  collections(first: 20) {
+    nodes {
+      id
+      products(first: 2) {
+        nodes {
+          handle
+          title
+          images(first: 1) {
+            nodes {
+              url
+              altText
+              width
+              height
+            }
+          }
+          priceRange {
+            minVariantPrice {
+              amount
+              currencyCode
+            }
+            maxVariantPrice {
+              amount
+              currencyCode
+            }
+          }
+        }
+      }
+    }
+  }
+}

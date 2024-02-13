@@ -15,6 +15,7 @@ const Landing = () => {
       </div>
       <div className="grid h-[350px] gap-5 md:grid-cols-3">
         <Image
+          placeholder="blur"
           src={img1}
           width={img1.width}
           height={img1.height}
@@ -25,6 +26,7 @@ const Landing = () => {
           className="h-[350px] object-cover"
         />
         <Image
+          placeholder="blur"
           src={img2}
           priority={true}
           loading="eager"
@@ -35,6 +37,7 @@ const Landing = () => {
           className="hidden h-[350px] object-cover md:block"
         />
         <Image
+          placeholder="blur"
           src={img3}
           width={img3.width}
           height={img3.height}
