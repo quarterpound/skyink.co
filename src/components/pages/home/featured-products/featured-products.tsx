@@ -10,14 +10,14 @@ const FeaturedProducts = async () => {
   }
 
   return (
-    <section className="py-10 grid gap-10 container">
+    <section className="py-10 grid gap-4 container">
       <h2 className="uppercase text-center text-xs">
         Products
       </h2>
       <div className="flex gap-10 justify-center w-full text-4xl font-tight">
         <p>Featured</p>
-        <p className="text-gray-500">Bestsellers</p>
-        <p className="text-gray-500">Picks</p>
+        <p className="text-gray-500 hidden md:block">Bestsellers</p>
+        <p className="text-gray-500 hidden md:block">Picks</p>
       </div>
       <div className="grid gap-5">
         {

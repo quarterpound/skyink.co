@@ -6,14 +6,14 @@ import Link from "next/link";
 
 const Landing = () => {
   return (
-    <section className="container grid gap-12">
+    <section className="container grid gap-6 md:gap-12">
       <div className="mx-auto max-w-[500px]">
         <h1 className="font-tight text-center text-4xl">
           Your <span className="italic">dream</span> home awaits - make it a
           reality with <span className="italic">Skyink</span>
         </h1>
       </div>
-      <div className="grid h-[350px] gap-5 md:grid-cols-3">
+      <div className="grid h-[250px] md:h-[350px] gap-5 md:grid-cols-3">
         <Image
           placeholder="blur"
           src={img1}
@@ -23,7 +23,7 @@ const Landing = () => {
           loading="eager"
           blurDataURL={img1.blurDataURL}
           alt="Image 1"
-          className="h-[350px] object-cover"
+          className="h-[250px] md:h-[350px] object-cover"
         />
         <Image
           placeholder="blur"

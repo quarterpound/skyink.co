@@ -3,7 +3,7 @@ import Products from "./featured-products";
 
 const Home = () => {
   return (
-    <main className="py-10 grid gap-20">
+    <main className="py-10 grid gap-5 md:gap-20">
       <Landing />
       <Products />
     </main>

@@ -23,7 +23,7 @@ const FeaturedProductCard = async ({ className, product, ...props }: FeaturedPro
 
   return (
     <div className={cn("grid gap-2 max-w-[700px]", className)} {...props}>
-      <Image placeholder="blur" className="object-cover object-center h-[400px]" src={thumbnail.url} blurDataURL={blurUrl} width={thumbnail.width} height={thumbnail.height} alt={thumbnail.altText ?? product.title} />
+      <Image placeholder="blur" className="object-cover object-center h-[200px] md:h-[400px]" src={thumbnail.url} blurDataURL={blurUrl} width={thumbnail.width} height={thumbnail.height} alt={thumbnail.altText ?? product.title} />
       <div className="flex justify-between items-center font-tight">
         <p>{product.title}</p>
         <p>{formatMoney(product.priceRange.minVariantPrice)}</p>

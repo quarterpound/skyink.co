@@ -5,15 +5,15 @@ import ShoppingCart from "@/components/icons/shopping_cart";
 
 const Header = () => {
   return (
-    <header className="container flex h-32 w-full items-center justify-between py-10">
+    <header className="container flex h-16 md:h-32 w-full items-center justify-between py-10">
       <button role="menu" aria-label="Menu">
-        <HamburgerMenu className="h-8 w-8" />
+        <HamburgerMenu className="md:h-8 h-6 w-6 md:w-8" />
       </button>
       <Link href={"/"}>
-        <LogoGradient className="h-24 w-24" />
+        <LogoGradient className="w-10 h-10 md:h-24 md:w-24" />
       </Link>
       <button role="tab" aria-label="Shopping cart">
-        <ShoppingCart className="h-8 w-8" />
+        <ShoppingCart className="md:h-8 h-6 w-6 md:w-8" />
       </button>
     </header>
   );
