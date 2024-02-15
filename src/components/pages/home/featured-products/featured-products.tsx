@@ -10,7 +10,7 @@ const FeaturedProducts = async () => {
   }
 
   return (
-    <section className="py-10 grid gap-4 container">
+    <section className="py-10 grid gap-4 md:gap-10 container">
       <h2 className="uppercase text-center text-xs">
         Products
       </h2>
